@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+    <meta name="author" content="Natalia Muñoz">
+    <title>HTML-CSS-JS</title>
+
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+
+    <!-- Bootstrap + Creative Design main styles -->
+	<link rel="stylesheet" href="assets/css/creative-design.css">
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    
+    <!-- Page Navbar -->
+    <nav id="scrollspy" class="navbar page-navbar navbar-light navbar-expand-md fixed-top" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="navbar-brand" href="#"><strong class="text-primary">Front</strong> <span class="text-dark">Development</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Bienvenidos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">¿Que es?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Configuraciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testmonial">Practica aqui</a>
+                    </li>                
+                    <li class="nav-item ml-md-4">
+                        <a class="nav-link btn btn-primary" href="components.html">Components</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav><!-- End of Page Navbar -->   
+
+    <!-- Page Header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content">           
+        </div>      
+    </header><!-- End of Page Header -->    
+    
+    <!-- About Section -->
+    <section id="about">
+        <!-- Container -->
+        <div class="container">
+            <!-- About wrapper -->
+            <div class="about-wrapper">
+                <div class="after"><h1>Conceptos</h1></div>
+                <div class="content">
+                    <h5 class="title mb-3">básicos de HTML</h5>
+                    <!-- row -->
+                    <div class="row">
+                        <div class="col">
+                            <p>El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos.</p>
+                            <p><b>Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos.</b></p>                        
+                            <p>Como lo sugiere el título, este artículo te dará una comprensión básica de HTML y cúal es su función.</p>
+                            <p>Entonces, ¿qué es HTML en realidad?</p>
+                        </div>
+                        <div class="col">
+                            <p>HTML no es un lenguaje de programación; es un lenguaje de marcado que define la estructura de tu contenido.</p>
+                            <p>HTML consiste en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera. </p>
+                            <p> Las etiquetas de encierre pueden hacer de una palabra o una imagen un hipervínculo a otro sitio, se pueden cambiar palabras a cursiva, agrandar o achicar la letra</p>
+                        </div>
+                    </div><!-- End of Row -->                   
+                    <a href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics">Read More...</a>
+                </div>
+            </div><!-- End of About Wrapper -->         
+        </div>  <!-- End of Container-->        
+     </section><!--End of Section -->
+
+
+    <!-- section -->
+    <section>
+        <!-- Container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-6">
+                    <div class="img-wrapper">
+                        <div class="after"></div>
+                        <img src="assets/imgs/img-1.jpg" class="w-100" alt="About Us">
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <h6 class="title mb-3">¿Qué es el CSS?</h6>
+                    
+                    <p>Las hojas de estilo en cascada (CSS, cascading style sheets) permiten crear páginas web atractivas. </p>
+                    <p class="text-muted">Pero ¿cómo funcionan realmente?</p>
+                    <p>El CSS se puede usar para estilos de texto muy básicos como, por ejemplo, cambiar el color y el tamaño de los encabezados y los enlaces. Se puede utilizar para crear un diseño, como podría ser convertir una columna de texto en una composición (en-US) con un área de contenido principal y una barra lateral para información relacionada. Incluso se puede usar para crear efectos de animación. Echa un vistazo a los enlaces de este párrafo para ver ejemplos específicos. </p>
+                    <button onclick="window.location.href='https://developer.mozilla.org/es/docs/Learn/CSS/First_steps/What_is_CSS'" class="btn btn-outline-primary btn-sm">Learn More</button>
+                </div>
+            </div>
+            <!-- End of Row -->
+        </div>  
+        <!-- End of Container -->
+    </section><!-- End of Section -->   
+
+    <!-- section -->
+    <section>
+        <!-- Container -->
+        <div class="container">
+            <!-- Row -->
+            <div class="row justify-content-between align-items-center">                
+                <div class="col-md-5">
+                    <h6 class="title mb-3">¿Qué es JavaScript?</h6>
+                    <p>JavaScript es un lenguaje de programación o de secuencias de comandos que te permite implementar funciones complejas en páginas web</p>
+                    <p class="text-muted">cada vez que una página web hace algo más que sentarse allí y mostrar información estática para que la veas, muestra oportunas actualizaciones de contenido, mapas interactivos, animación de Gráficos 2D/3D, desplazamiento de máquinas reproductoras de vídeo, etc., puedes apostar que probablemente JavaScript está involucrado.</p>
+                    <p>Es la tercera capa del pastel de las tecnologías web estándar, dos de las cuales (HTML y CSS) hemos cubierto con mucho más detalle en otras partes del Área de aprendizaje.</p>
+                    <button onclick="window.location.href='https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaScript'"  class="btn btn-outline-primary btn-sm">Learn More</button>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="img-wrapper">
+                        <div class="after right"></div>
+                        <img src="assets/imgs/img-2.jpg" class="w-100" alt="About Us">
+                    </div>                      
+                </div>
+            </div><!-- End of Row -->           
+        </div><!-- End of Container-->      
+    </section><!-- End of Section -->
+    
+
+    <!-- Features Section -->
+    <section class="has-bg-img" id="features">
+        <div class="overlay"></div>
+        <!-- Button trigger modal -->
+        <a data-toggle="modal" href="#exampleModalCenter">
+            <i></i>
+        </a>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                     <iframe width="100%" height="450px" class="border-0" 
+                    src="https://www.youtube.com/watch?v=XqFR2lqBYPs&list=PL4ONm-ifcbQJNAzWesbl498Gof2ystb9A">
+                    </iframe>
+                </div>
+            </div>
+        </div><!-- End of Modal -->     
+    </section><!-- End of features Section -->  
+
+    <!-- Section -->
+    <section>
+        <!-- Container -->
+        <div class="container">
+            <!-- Row -->
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-6">
+                    <div class="img-wrapper">
+                        <div class="after"></div>
+                        <img src="assets/imgs/img-3.jpg" class="w-100" alt="About us">
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <h6 class="title mb-3">Configurar tu laptop para desarrollar con HTML, CSS y JavaScript es bastante sencillo. Aquí tienes los pasos básicos:</h6>
+                    
+                    <p>Editor de código: Lo primero que necesitas es un editor de código. Hay muchos disponibles, pero algunos populares son Visual Studio Code, Sublime Text, Atom y Brackets. Puedes descargar e instalar uno de estos editores desde su sitio web oficial.
+
+                        Navegador web: Necesitarás un navegador web para probar tus aplicaciones web. Google Chrome, Mozilla Firefox, Microsoft Edge y Safari son opciones comunes. Puedes descargar e instalar uno o varios de estos navegadores según tu preferencia.
+                        
+                        Creación de archivos: Puedes crear tus archivos HTML, CSS y JavaScript en cualquier editor de texto, pero es más conveniente usar un editor de código que proporcione resaltado de sintaxis y otras características útiles para el desarrollo web.
+                        
+                        Estructura de archivos: Organiza tus archivos en una estructura de directorios clara y coherente. Por ejemplo:</p>
+                    <p class="text-muted">mi-proyecto/
+                        ├── index.html
+                        ├── styles/
+                        │   └── styles.css
+                        └── scripts/
+                            └── script.js</p>
+                    <button onclick="window.location.href='https://www.youtube.com/watch?v=Kj4TrW8ZtF4'"  class="btn btn-outline-primary btn-sm">Learn More</button>
+                </div>
+            </div><!-- End of Row -->           
+        </div><!-- End of Container-->      
+    </section><!-- End of Section -->   
+
+    <!-- Testmonial Section -->
+    <section class="text-center pt-5" id="testmonial">
+        <!-- Container -->
+        <div class="container">
+            <h3 class="mt-3 mb-5 pb-5">Practicando se aprende </h3>
+            <!-- Row -->
+            <div class="row">
+                <div class="col-sm-10 col-md-4 m-auto">
+                    <div class="testmonial-wrapper">
+                        <img src="assets/imgs/avatar1.jpg" alt="Client Image">
+                        <h6 class="title mb-3">HTML</h6>
+                        <p>Aqui encontraras conceptos y ejercicios por cada concepto</p>
+                        <button onclick="window.location.href='https://www.w3schools.com/html/default.asp'" class="btn btn-outline-primary btn-sm">Click aqui</button>
+                    </div>
+                </div>
+                <div class="col-sm-10 col-md-4 m-auto">
+                    <div class="testmonial-wrapper">
+                        <img src="assets/imgs/avatar2.jpg" alt="Client Image">
+                        <h6 class="title mb-3">CSS</h6>
+                        <p>Aqui encontraras conceptos y ejercicios por cada concepto</p>
+                        <button onclick="window.location.href='https://www.w3schools.com/css/default.asp'" class="btn btn-outline-primary btn-sm">Click aqui</button>
+                    </div>
+                </div>
+                <div class="col-sm-10 col-md-4 m-auto">
+                    <div class="testmonial-wrapper">
+                        <img src="assets/imgs/avatar3.jpg" alt="Client Image">
+                        <h6 class="title mb-3">JAVASCRIPT</h6>
+                        <p>Aqui encontraras conceptos y ejercicios por cada concepto</p>
+                        <button onclick="window.location.href='https://www.w3schools.com/js/default.asp'" class="btn btn-outline-primary btn-sm">Click aqui</button>
+                    </div>
+                </div>
+            </div><!-- end of Row -->           
+        </div><!-- End of Cotanier -->  
+    </section><!-- End of Testmonial Section -->
+
+    <!-- Section -->
+    <section class="has-bg-img text-center text-light height-auto" style="background-image: url(assets/imgs/bg-img-2.jpg)">
+        <h1 class="display-4">exitos en tu aprendizaje.</h1>
+    </section><!-- End of Section -->
+  
+
+    <!-- Section -->
+    <div class="container">
+        <!-- foooter -->
+        <footer class="footer">          
+           
+        </footer><!-- End of Footer-->  
+     </div>
+     
+    
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Creative Design js -->
+    <script src="assets/js/creative-design.js"></script>
+
+</body>
+</html>
